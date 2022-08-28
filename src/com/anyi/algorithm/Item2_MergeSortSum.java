@@ -9,7 +9,7 @@ import java.util.Arrays;
 public class Item2_MergeSortSum {
     public static void main(String[] args) {
         int[] arr = new int[]{1,3,2,4,5}; // 4*1 + 3*2 + 2*2 + 4
-        int res = process(arr ,0,4);
+        int res = process(arr ,0,arr.length-1);
         System.out.printf("" +res);
     }
     // 递归算法

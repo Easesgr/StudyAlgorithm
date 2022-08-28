@@ -7,7 +7,6 @@ import java.util.Arrays;
  */
 
 public class Item1_MergeSort {
-
     public static void main(String[] args) {
         int[] arr = new int[]{3};
 
@@ -15,7 +14,7 @@ public class Item1_MergeSort {
             System.out.println(Arrays.toString(arr));
             return;
         }
-        process(arr ,0,4);
+        process(arr ,0,5);
         System.out.println(Arrays.toString(arr));
     }
     // 递归算法
