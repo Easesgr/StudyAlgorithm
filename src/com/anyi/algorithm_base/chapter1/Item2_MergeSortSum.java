@@ -1,15 +1,10 @@
-package com.anyi.algorithm_base;
+package com.anyi.algorithm_base.chapter1;
 
 /**
  * 最下和问题 采用归并排序来实现
  * 简单来说就是 左边数比右边大就记作和
  */
 public class Item2_MergeSortSum {
-    public static void main(String[] args) {
-        int[] arr = new int[]{1,3,2,4,5}; // 4*1 + 3*2 + 2*2 + 4
-        int res = process(arr ,0,arr.length-1);
-        System.out.printf("" +res);
-    }
     // 递归算法
     public static int process(int[] arr,int l,int r){
         if (l == r){
