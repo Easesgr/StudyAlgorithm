@@ -1,4 +1,4 @@
-package com.anyi.algorithm;
+package com.anyi.algorithm_base;
 
 import java.util.Arrays;
 
@@ -7,15 +7,12 @@ import java.util.Arrays;
  */
 
 public class Item1_MergeSort {
-    public static void main(String[] args) {
-        int[] arr = new int[]{3};
-
-        if (arr == null || arr.length < 2){
-            System.out.println(Arrays.toString(arr));
+    // 主方法
+    public static void mergeSort(int[] arr){
+        if (arr == null || arr.length <2 ){
             return;
         }
-        process(arr ,0,5);
-        System.out.println(Arrays.toString(arr));
+        process(arr,0,arr.length - 1);
     }
     // 递归算法
     public static void process(int[] arr,int l,int r){
@@ -29,24 +26,23 @@ public class Item1_MergeSort {
         process(arr,l,mid);
 
         process(arr,mid + 1,r);
-
         // 合并分支
         merge(arr,l,r,mid);
     }
 
     public static void merge(int[] arr , int l , int r , int mid){
+        // 准备一个辅助数组
+        int[] help = new int[r -l +1];
+
         // 记录左右起始点
         int p1 = l;
         int p2 = mid +1;
         // 记录位置
         int i = 0;
 
-        // 准备一个辅助数组
-        int[] help = new int[r -l +1];
-
         // 两组数组没有遍历完
         while (p1 <= mid && p2 <= r  ){
-            help[i++] = arr[p1] < arr[p2] ? arr[p1++] : arr[p2++];
+            help[i++] = arr[p1] <= arr[p2] ? arr[p1++] : arr[p2++];
         }
         // 其中一组遍历完
         while (p1 <= mid){

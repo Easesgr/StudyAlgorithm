@@ -1,4 +1,4 @@
-package com.anyi.algorithm;
+package com.anyi.algorithm_base;
 
 import java.util.Arrays;
 
@@ -9,11 +9,7 @@ import java.util.Arrays;
  */
 public class Item3_QuerySort {
 
-    public static void main(String[] args) {
-        int[] arr = new int[]{1,3,2,4,5,3,2,32,22,99}; // 4*1 + 3*2 + 2*2 + 4
-        querySort(arr ,0,arr.length-1);
-        System.out.printf(Arrays.toString(arr));
-    }
+
     public static void querySort(int[] arr ,int l ,int r){
         if (arr == null || arr.length < 2) {
             return;
@@ -32,6 +28,15 @@ public class Item3_QuerySort {
 
     // 将数组分成 左边 < arr[r]  中间 == arr[r] 右边 > arr[r]
     // 返回左右两边的边界值
+    /*
+        算法总结：
+            1. 首先拿到小于界 和 大于界
+            2. 从左边开始，
+                小于：如果该数小于我们随机选出来的最大数，就让小于界往后第一位和当前数进行交换，并且小于界右移一位
+                大于：大于界左移，让大于界往左第一位和当前数进行交换，，当前位置不变，因为交换过来的数还没有和最后一个比较、
+                等于：让当前位置+1
+            3. 最后再让
+     */
     public static int[] part(int[] arr ,int l, int r){
         // 荷兰国旗问题算法
         int less = l - 1; // < 右边界

@@ -1,6 +1,4 @@
-package com.anyi.algorithm;
-
-import java.util.Arrays;
+package com.anyi.algorithm_base;
 
 /**
  * 最下和问题 采用归并排序来实现
