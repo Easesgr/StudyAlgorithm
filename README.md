@@ -3,10 +3,22 @@
 #### item2 归并排序扩展 求小和
 #### item3 快速排序和荷兰国旗问题
 
-### 链表
+### chapter2 链表
 #### Item1_SingleReserve 单链表反转 三个变量
 #### Item2_doubleNodeReserve 双链表反转 两个变量
 #### Item3_printRepeat 打印链表中相等节点数据
 #### Item4_nodeLoopback 判断一个链表是不是回环链表，stack和code方法
 #### Item5_nodePartition 将链表分为前面>k，中间=k.后面>k
 #### Item6_nodeIntersect 判读两个可能有环的链表是否相交
+#### Item7_nodeSort 链表排序
+
+### chapter3 二叉树
+#### Item1_recursiveTraversal 递归遍历
+#### Item2_noRecursive 非递归遍历
+#### Item3_widthRecursive 宽度遍历，以及统计最多节点层
+#### Item4_MaxNodes 统计哪一层节点最多
+#### Item5_isBST 判断是否是一颗搜索树
+#### Item6_isCBT 判断是否是一颗完全二叉树
+#### Item7_isFull 判断是否为满二叉树
+#### Item8_isBalance 判断是否是平衡二叉树
+#### Item9_parentNode 寻找最近汇聚节点

@@ -1,9 +1,14 @@
 package com.anyi.algorithm_base.chapter1;
 
+import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.List;
 
 public class Test {
     public static void main(String[] args) {
+        int[] arrs = new int[]{3,0,-2,-1,1,2};
+        List<List<Integer>> lists = threeSum(arrs);
+
         int testTime = 500000;
         int size = 10;//保证数组长度较短，可以几乎穷尽所有情况
         int value = 1000;
@@ -26,8 +31,12 @@ public class Test {
                 printArray(arr3);
                 break;
             }
+
+
         }
         System.out.println(succeed ? "Nice!" : "Error!");
+
+
     }
 
     private static void printArray(int[] arr3) {
@@ -83,6 +92,41 @@ public class Test {
             arr[i] = ((int)(value*Math.random()));
         }
         return arr;
+    }
+
+    public static List<List<Integer>> threeSum(int[] nums) {
+        // 左右指针实现
+        Arrays.sort(nums); // 排序
+        // 准备一个列表来接收
+        List<List<Integer>> res = new ArrayList<>();
+
+        // 左指针从头开始右指针从尾开始
+        for(int first= 0;first < nums.length;++first){
+            if(first > 0 && nums[first] == nums[first - 1]){
+                continue;
+            }
+            int third = nums.length - 1;
+            for(int second = first +1; second < nums.length;++second){
+                if(second > first + 1 && nums[second] == nums[second - 1]){
+                    continue;
+                }
+
+                if(second < third && nums[first] + nums[second] + nums[third] >0){
+                    --third;
+                }
+                if(second == third){
+                    break;
+                }
+                if(nums[first] + nums[second] + nums[third] == 0){
+                    List<Integer> list = new ArrayList<>();
+                    list.add(nums[first]);
+                    list.add(nums[second]);
+                    list.add(nums[third]);
+                    res.add(list);
+                }
+            }
+        }
+        return res;
     }
 
 }

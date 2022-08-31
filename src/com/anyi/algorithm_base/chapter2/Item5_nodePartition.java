@@ -22,7 +22,7 @@ public class Item5_nodePartition {
         while (head !=null){
             next = head.next;
             head.next = null;
-            if (head.value < k){  // 如果小于k
+            if (head.val < k){  // 如果小于k
                 if (lH == null){
                     lH = head;
                     lT = head;
@@ -30,7 +30,7 @@ public class Item5_nodePartition {
                     lT.next = head;
                     lT = head;
                 }
-            }else if (head.value > k){ // 大于k
+            }else if (head.val > k){ // 大于k
                 if (rH == null){
                     rH = head;
                     rT = head;

@@ -2,7 +2,28 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6266ece4-2d86-44cc-bfee-e3943a4441f6" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/com/anyi/algorithm_base/chapter2/Item7_nodeSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/anyi/algorithm_base/chapter2/ListNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/anyi/algorithm_base/chapter3/Item1_recursiveTraversal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/anyi/algorithm_base/chapter3/Item2_noRecursive.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/anyi/algorithm_base/chapter3/Item3_widthRecursive.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/anyi/algorithm_base/chapter3/Item4_MaxNodes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/anyi/algorithm_base/chapter3/Item5_isBST.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/anyi/algorithm_base/chapter3/Item6_isCBT.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/anyi/algorithm_base/chapter3/Item7_isFull.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/anyi/algorithm_base/chapter3/Item8_isBalance.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/anyi/algorithm_base/chapter3/Item9_parentNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/anyi/algorithm_base/chapter3/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/anyi/algorithm_base/chapter3/TreeNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/anyi/algorithm_base/chapter1/Item1_MergeSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/anyi/algorithm_base/chapter1/Item1_MergeSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/anyi/algorithm_base/chapter1/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/anyi/algorithm_base/chapter1/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/anyi/algorithm_base/chapter2/Item3_printRepeat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/anyi/algorithm_base/chapter2/Item3_printRepeat.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/anyi/algorithm_base/chapter2/Item4_nodeLoopback.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/anyi/algorithm_base/chapter2/Item4_nodeLoopback.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/anyi/algorithm_base/chapter2/Item5_nodePartition.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/anyi/algorithm_base/chapter2/Item5_nodePartition.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/anyi/algorithm_base/chapter2/Node.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/anyi/algorithm_base/chapter2/Node.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/anyi/algorithm_base/chapter2/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/anyi/algorithm_base/chapter2/Test.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,30 +54,17 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "reference.settingsdialog.IDE.editor.colors.Code With Me"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.IDE.editor.colors.Code With Me&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="Application.com.anyi.algorithm_base.chapter2.Test">
-    <configuration name="Item2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.anyi.algorithm.Item2" />
-      <module name="algorithm" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.anyi.algorithm_base.chapter1.Item2_MergeSortSum" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+}</component>
+  <component name="RunManager" selected="Application.com.anyi.algorithm_base.chapter3.Test">
     <configuration name="Item2_doubleNodeReserve" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.anyi.algorithm_base.chapter2.Item2_doubleNodeReserve" />
       <module name="algorithm" />
@@ -109,8 +117,23 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="com.anyi.algorithm_base.chapter3.Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.anyi.algorithm_base.chapter3.Test" />
+      <module name="algorithm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.anyi.algorithm_base.chapter3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.com.anyi.algorithm_base.chapter3.Test" />
+        <item itemvalue="Application.Test" />
         <item itemvalue="Application.com.anyi.algorithm_base.chapter2.Test" />
         <item itemvalue="Application.Item2_doubleNodeReserve" />
       </list>
@@ -129,7 +152,8 @@
       <workItem from="1661747383007" duration="14793000" />
       <workItem from="1661776834163" duration="6892000" />
       <workItem from="1661784775854" duration="44000" />
-      <workItem from="1661826621812" duration="13898000" />
+      <workItem from="1661826621812" duration="24447000" />
+      <workItem from="1661910730819" duration="22586000" />
     </task>
     <task id="LOCAL-00001" summary="归并排序及其拓展 item1 + item2">
       <created>1661676201809</created>
@@ -180,7 +204,14 @@
       <option name="project" value="LOCAL" />
       <updated>1661844975085</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Item3_printRepeat 打印链表中相等节点数据&#10;Item4_nodeLoopback 判断一个链表是不是回环链表，stack和code方法&#10;Item5_nodePartition 将链表分为前面&gt;k，中间=k.后面&gt;k&#10;Item6_nodeIntersect 判读两个可能有环的链表是否相交">
+      <created>1661845009771</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1661845009771</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -232,13 +263,27 @@
           <line>24</line>
           <option name="timeStamp" value="12" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/anyi/algorithm_base/chapter2/Item7_nodeSort.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="19" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/anyi/algorithm_base/chapter1/Test.java</url>
+          <line>100</line>
+          <option name="timeStamp" value="30" />
+        </line-breakpoint>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.util.EmptyStackException" package="java.util" />
+          <option name="timeStamp" value="14" />
+        </breakpoint>
       </breakpoints>
     </breakpoint-manager>
-    <watches-manager>
-      <configuration name="Application">
-        <watch expression="n1" />
-      </configuration>
-    </watches-manager>
+    <pin-to-top-manager>
+      <pinned-members>
+        <PinnedItemInfo parentTag="com.anyi.algorithm_base.chapter3.TreeNode" memberName="right" />
+      </pinned-members>
+    </pin-to-top-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/algorithm$Item1.ic" NAME="Item1 Coverage Results" MODIFIED="1661674525676" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">

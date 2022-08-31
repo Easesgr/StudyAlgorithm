@@ -25,7 +25,7 @@ public class Item4_nodeLoopback {
         boolean isLoopback = true;
         cur = head;
         while (cur != null){
-            if (cur.value != nodes.pop().value){
+            if (cur.val != nodes.pop().val){
                 isLoopback =false;
             }
             cur = cur.next;
@@ -57,7 +57,7 @@ public class Item4_nodeLoopback {
         n2 = head;
         boolean isLoopback = true;
         while (n1 !=null && n2 !=null){
-            if (n1.value != n2.value){
+            if (n1.val != n2.val){
                 isLoopback =false;
             }
             n1 = n1.next;

@@ -10,9 +10,9 @@ public class Item3_printRepeat {
         }
         Node repeat = new Node(1);
         while (N1 !=null && N2 != null){
-            if (N1.value < N2.value){
+            if (N1.val < N2.val){
                 N1 = N1.next;
-            }else if(N1.value > N2.value){
+            }else if(N1.val > N2.val){
                 N2 = N2.next;
             }else {
                 repeat.next = N1;
