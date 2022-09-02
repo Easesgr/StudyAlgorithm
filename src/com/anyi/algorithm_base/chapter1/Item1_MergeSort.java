@@ -10,6 +10,7 @@ import java.util.Arrays;
 public class Item1_MergeSort {
     // 主方法
     public static void mergeSort(int[] arr){
+
         if (arr == null || arr.length <2 ){
             return;
         }

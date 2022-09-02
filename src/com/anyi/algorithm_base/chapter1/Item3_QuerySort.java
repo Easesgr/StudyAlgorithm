@@ -1,6 +1,7 @@
 package com.anyi.algorithm_base.chapter1;
 
 import java.util.Arrays;
+import java.util.Random;
 
 /**
  * 快排 采用荷兰国旗问题来优化代码
@@ -8,15 +9,13 @@ import java.util.Arrays;
  * 采用荷兰国旗问题来使选择的数一直在中间
  */
 public class Item3_QuerySort {
-
-
     public static void querySort(int[] arr ,int l ,int r){
         if (arr == null || arr.length < 2) {
             return;
         }
         if (l < r){
             // 随机选一个数，和最后一个数做交换
-            swap(arr,(l + (int)((r - l + 1)*Math.random())),r);
+            swap(arr,new Random().nextInt(r - l + 1) + l,r);
             // 对最后一个数进行part分离
             int[] part = part(arr,l,r);
             // 左边部分递归进快排

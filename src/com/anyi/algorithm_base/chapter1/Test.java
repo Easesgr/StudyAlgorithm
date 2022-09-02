@@ -1,13 +1,10 @@
 package com.anyi.algorithm_base.chapter1;
 
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
+import java.util.*;
 
 public class Test {
     public static void main(String[] args) {
-        int[] arrs = new int[]{3,0,-2,-1,1,2};
-        List<List<Integer>> lists = threeSum(arrs);
+    /*    int[] arrs = new int[]{3,2,4,1};
 
         int testTime = 500000;
         int size = 10;//保证数组长度较短，可以几乎穷尽所有情况
@@ -19,7 +16,8 @@ public class Test {
             int[] arr2 = copyArray(arr1);
             int[] arr3 = copyArray(arr2);
             //试验证冒泡排序
-            Item4_HeapSort.heapSort(arr1);
+            List<Integer> integers = Item6_CakeSort.pancakeSort(arrs);
+            printArray(arrs);
             //用绝对正确的方法排序
             rightMethod(arr2);
 
@@ -31,12 +29,30 @@ public class Test {
                 printArray(arr3);
                 break;
             }
-
-
         }
-        System.out.println(succeed ? "Nice!" : "Error!");
+        System.out.println(succeed ? "Nice!" : "Error!");*/
+        /*
+        List<List<String>> lists = new ArrayList<>();
+        ArrayList<String> strings = new ArrayList<>();
+        strings.add("leetcode");
+        strings.add("google");
+        strings.add("facebook");
+        lists.add(strings);
+        strings.clear();
+        ArrayList<String> strings2 = new ArrayList<>();
+        strings.add("google");
+        strings.add("microsoft");
+        lists.add(strings2);
+        ArrayList<String> strings3 = new ArrayList<>();
+        strings.add("google");
+        strings.add("facebook");
+        lists.add(strings3);
+        peopleIndexes(lists);
+        */
+        String text = "anyi";
+        String s = text.substring(0, 1).toUpperCase();
 
-
+        System.out.println(s);
     }
 
     private static void printArray(int[] arr3) {
@@ -128,5 +144,28 @@ public class Test {
         }
         return res;
     }
-
+    public static List<Integer> peopleIndexes(List<List<String>> favoriteCompanies) {
+        List<Integer>  res = new ArrayList<>();
+        // 首先找出最大的一个
+        for(int i = 0 ; i < favoriteCompanies.size(); i++){
+            boolean isSon = false;
+            for(int j = 0; j < favoriteCompanies.size(); j++){
+                if(i == j){
+                    continue;
+                }
+                // 判断每一个是不是别人的子集
+                isSon = oneIsSon(favoriteCompanies.get(i),favoriteCompanies.get(j));
+            }
+            if(!isSon){
+                res.add(i);
+            }
+        }
+        return res;
+    }
+    public static boolean oneIsSon(List<String> one,List<String> two){
+        if(one.size() > two.size()){ // 如果one子集长度小于two那一定不是他的子集
+            return false;
+        }
+        return new HashSet<>(two).containsAll(one);
+    }
 }
