@@ -49,10 +49,11 @@ public class Test {
         lists.add(strings3);
         peopleIndexes(lists);
         */
-        String text = "anyi";
-        String s = text.substring(0, 1).toUpperCase();
+        String text = "abc";
+        String[] split = text.split("");
+        System.out.println(Arrays.toString(split));
+        StringBuffer tex = new StringBuffer();
 
-        System.out.println(s);
     }
 
     private static void printArray(int[] arr3) {

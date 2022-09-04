@@ -30,3 +30,12 @@
 #### Code4_Kruskal 最小生成树的 k算法 priorityQueue
 #### Code5_Prim 最小生成树的 p算法 采用 map、set priorityQueue
 #### Code6_MinRoute 图的最短路径问题 采用map、set
+
+### chapter5 前缀树和贪心算法
+Code1_TrieTree 前缀树
+Code2_LowestLexicography 字典排序
+Code3_LessMoneySplitGold 分黄金使用最少的钱
+Code4_BestArrange 如何组织可以开最多的会
+Code5_IPO 怎么样可以使利益最大化
+Code6_MadianQuick 维护两个堆，能够快速的获取中位数
+Code7_NQueen N皇后问题
