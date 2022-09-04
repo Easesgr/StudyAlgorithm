@@ -2,17 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6266ece4-2d86-44cc-bfee-e3943a4441f6" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/anyi/algorithm_base/chapter5/Code1_TrieTree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/anyi/algorithm_base/chapter5/Code2_LowestLexicography.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/anyi/algorithm_base/chapter5/Code3_LessMoneySplitGold.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/anyi/algorithm_base/chapter5/Code4_BestArrange.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/anyi/algorithm_base/chapter5/Code5_IPO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/anyi/algorithm_base/chapter5/Code6_MadianQuick.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/anyi/algorithm_base/chapter5/Code7_NQueen.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/anyi/algorithm_base/chapter5/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/anyi/algorithm_base/chapter6/Code1_Hanoi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/anyi/algorithm_base/chapter6/Code2_PrintAllSubSquences.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/anyi/algorithm_base/chapter6/Code3_PrintFullArrangement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/anyi/algorithm_base/chapter6/Code4_ReverseStackUsingRecursive.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/anyi/algorithm_base/chapter6/Code6_ConvertToLetterString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/anyi/algorithm_base/chapter6/Code7_Knapsack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/anyi/algorithm_base/chapter6/Code8_CardsInLine.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/anyi/algorithm_base/chapter6/Code9_NQueue.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/anyi/algorithm_base/chapter1/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/anyi/algorithm_base/chapter1/Test.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,13 +57,13 @@
       <recent name="com.anyi.algorithm_base.chapter4" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.com.anyi.algorithm_base.chapter5.Test">
-    <configuration name="Item2_doubleNodeReserve" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.anyi.algorithm_base.chapter2.Item2_doubleNodeReserve" />
+  <component name="RunManager" selected="Application.Code9_NQueue">
+    <configuration name="Code3_PrintFullArrangement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.anyi.algorithm_base.chapter6.Code3_PrintFullArrangement" />
       <module name="algorithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.anyi.algorithm_base.chapter2.*" />
+          <option name="PATTERN" value="com.anyi.algorithm_base.chapter6.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -72,12 +71,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.anyi.algorithm_base.chapter1.Test" />
+    <configuration name="Code4_ReverseStackUsingRecursive" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.anyi.algorithm_base.chapter6.Code4_ReverseStackUsingRecursive" />
       <module name="algorithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.anyi.algorithm_base.chapter1.*" />
+          <option name="PATTERN" value="com.anyi.algorithm_base.chapter6.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -85,12 +84,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="com.anyi.algorithm_base.chapter2.Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.anyi.algorithm_base.chapter2.Test" />
+    <configuration name="Code6_ConvertToLetterString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.anyi.algorithm_base.chapter6.Code6_ConvertToLetterString" />
       <module name="algorithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.anyi.algorithm_base.chapter2.*" />
+          <option name="PATTERN" value="com.anyi.algorithm_base.chapter6.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -98,12 +97,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="com.anyi.algorithm_base.chapter3.Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.anyi.algorithm_base.chapter3.Test" />
+    <configuration name="Code9_NQueue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.anyi.algorithm_base.chapter6.Code9_NQueue" />
       <module name="algorithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.anyi.algorithm_base.chapter3.*" />
+          <option name="PATTERN" value="com.anyi.algorithm_base.chapter6.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -111,12 +110,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="com.anyi.algorithm_base.chapter5.Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.anyi.algorithm_base.chapter5.Test" />
+    <configuration name="com.anyi.algorithm_base.chapter6.Code8_CardsInLine" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.anyi.algorithm_base.chapter6.Code8_CardsInLine" />
       <module name="algorithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.anyi.algorithm_base.chapter5.*" />
+          <option name="PATTERN" value="com.anyi.algorithm_base.chapter6.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -126,11 +125,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.com.anyi.algorithm_base.chapter5.Test" />
-        <item itemvalue="Application.Test" />
-        <item itemvalue="Application.com.anyi.algorithm_base.chapter2.Test" />
-        <item itemvalue="Application.com.anyi.algorithm_base.chapter3.Test" />
-        <item itemvalue="Application.Item2_doubleNodeReserve" />
+        <item itemvalue="Application.Code9_NQueue" />
+        <item itemvalue="Application.com.anyi.algorithm_base.chapter6.Code8_CardsInLine" />
       </list>
     </recent_temporary>
   </component>
@@ -160,7 +156,9 @@
       <workItem from="1662186774031" duration="6951000" />
       <workItem from="1662200222088" duration="2167000" />
       <workItem from="1662204194340" duration="91000" />
-      <workItem from="1662250112812" duration="2877000" />
+      <workItem from="1662250112812" duration="12441000" />
+      <workItem from="1662287045916" duration="4533000" />
+      <workItem from="1662300477805" duration="1506000" />
     </task>
     <task id="LOCAL-00001" summary="归并排序及其拓展 item1 + item2">
       <created>1661676201809</created>
@@ -232,7 +230,14 @@
       <option name="project" value="LOCAL" />
       <updated>1662104779541</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Code1_TrieTree 前缀树&#10;Code2_LowestLexicography 字典排序&#10;Code3_LessMoneySplitGold 分黄金使用最少的钱&#10;Code4_BestArrange 如何组织可以开最多的会&#10;Code5_IPO 怎么样可以使利益最大化&#10;Code6_MadianQuick 维护两个堆，能够快速的获取中位数&#10;Code7_NQueen N皇后问题">
+      <created>1662276457041</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1662276457041</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -271,7 +276,8 @@
     <MESSAGE value="Item3_printRepeat 打印链表中相等节点数据&#10;Item4_nodeLoopback 判断一个链表是不是回环链表，stack和code方法&#10;Item5_nodePartition 将链表分为前面&gt;k，中间=k.后面&gt;k&#10;Item6_nodeIntersect 判读两个可能有环的链表是否相交" />
     <MESSAGE value="Item1_recursiveTraversal 递归遍历&#10;Item2_noRecursive 非递归遍历&#10;Item3_widthRecursive 宽度遍历，以及统计最多节点层&#10;Item4_MaxNodes 统计哪一层节点最多&#10;Item5_isBST 判断是否是一颗搜索树&#10;Item6_isCBT 判断是否是一颗完全二叉树&#10;Item7_isFull 判断是否为满二叉树&#10;Item8_isBalance 判断是否是平衡二叉树&#10;Item9_parentNode 寻找最近汇聚节点" />
     <MESSAGE value="chapter4 图&#10;Code1_BFS 图的广度遍历&#10;Code2_DFS 图的深度遍历&#10;Code3_TopologySort 求拓扑排序&#10;Code4_Kruskal 最小生成树的 k算法 priorityQueue&#10;Code5_Prim 最小生成树的 p算法 采用 map、set priorityQueue&#10;Code6_MinRoute 图的最短路径问题 采用map、set" />
-    <option name="LAST_COMMIT_MESSAGE" value="chapter4 图&#10;Code1_BFS 图的广度遍历&#10;Code2_DFS 图的深度遍历&#10;Code3_TopologySort 求拓扑排序&#10;Code4_Kruskal 最小生成树的 k算法 priorityQueue&#10;Code5_Prim 最小生成树的 p算法 采用 map、set priorityQueue&#10;Code6_MinRoute 图的最短路径问题 采用map、set" />
+    <MESSAGE value="Code1_TrieTree 前缀树&#10;Code2_LowestLexicography 字典排序&#10;Code3_LessMoneySplitGold 分黄金使用最少的钱&#10;Code4_BestArrange 如何组织可以开最多的会&#10;Code5_IPO 怎么样可以使利益最大化&#10;Code6_MadianQuick 维护两个堆，能够快速的获取中位数&#10;Code7_NQueen N皇后问题" />
+    <option name="LAST_COMMIT_MESSAGE" value="Code1_TrieTree 前缀树&#10;Code2_LowestLexicography 字典排序&#10;Code3_LessMoneySplitGold 分黄金使用最少的钱&#10;Code4_BestArrange 如何组织可以开最多的会&#10;Code5_IPO 怎么样可以使利益最大化&#10;Code6_MadianQuick 维护两个堆，能够快速的获取中位数&#10;Code7_NQueen N皇后问题" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -301,6 +307,11 @@
           <line>38</line>
           <option name="timeStamp" value="66" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/anyi/algorithm_base/chapter6/Code8_CardsInLine.java</url>
+          <line>12</line>
+          <option name="timeStamp" value="88" />
+        </line-breakpoint>
         <breakpoint enabled="true" type="java-exception">
           <properties class="java.util.EmptyStackException" package="java.util" />
           <option name="timeStamp" value="14" />
@@ -312,11 +323,6 @@
         <PinnedItemInfo parentTag="com.anyi.algorithm_base.chapter3.TreeNode" memberName="right" />
       </pinned-members>
     </pin-to-top-manager>
-    <watches-manager>
-      <configuration name="Application">
-        <watch expression="((Node)minQueue.toArray()[0]).profit" custom="com.anyi.algorithm_base.chapter5.Code5_IPO.Node" />
-      </configuration>
-    </watches-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/algorithm$Item1.ic" NAME="Item1 Coverage Results" MODIFIED="1661674525676" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
@@ -324,6 +330,9 @@
     </SUITE>
     <SUITE FILE_PATH="coverage/algorithm$Test.ic" NAME="Test Coverage Results" MODIFIED="1661957255387" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>com.anyi.algorithm_base.chapter1.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/algorithm$Code7_CardsInLine.ic" NAME="Code7_CardsInLine Coverage Results" MODIFIED="1662287021796" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.anyi.algorithm_base.chapter6.*</FILTER>
     </SUITE>
     <SUITE FILE_PATH="coverage/algorithm$com_anyi_algorithm_base_chapter5_Test.ic" NAME="com.anyi.algorithm_base.chapter5.Test Coverage Results" MODIFIED="1662186673962" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>com.anyi.algorithm_base.chapter5.*</FILTER>
