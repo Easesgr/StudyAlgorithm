@@ -1,3 +1,4 @@
+## 基础
 ### chapter1 排序
 #### item1 归并排序
 #### item2 归并排序扩展 求小和
@@ -48,3 +49,11 @@
 #### Code7_Knapsack 给定两个数组，分别是重量对应价值，bag最大能装重量，求最大能装价值
 #### Code8_CardsInLine 给定一个数组，只能拿左右两边，拿完另一个拿，怎么拿使值最大
 #### Code9_NQueue N皇后问题，位运算
+## 基础提升
+### chapter 1
+#### Code1_KMP KMP算法
+#### Code2_Manacher Manacher算法 最长回文子串
+### chapter2 
+#### Code1_SlidingWindowsMaxArray 滑动窗口，每次都取出最大值
+#### Code2_MonotonousStack 单调栈，可以直到一个数组中每个数左边和右边第一个大于自己的数
+#### Code3_SonMinMulSum 利用单调栈，求指标
