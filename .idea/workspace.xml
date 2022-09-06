@@ -1,17 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6266ece4-2d86-44cc-bfee-e3943a4441f6" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/anyi/algorithm_base/chapter6/Code1_Hanoi.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/anyi/algorithm_base/chapter6/Code2_PrintAllSubSquences.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/anyi/algorithm_base/chapter6/Code3_PrintFullArrangement.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/anyi/algorithm_base/chapter6/Code4_ReverseStackUsingRecursive.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/anyi/algorithm_base/chapter6/Code6_ConvertToLetterString.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/anyi/algorithm_base/chapter6/Code7_Knapsack.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/anyi/algorithm_base/chapter6/Code8_CardsInLine.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/anyi/algorithm_base/chapter6/Code9_NQueue.java" afterDir="false" />
+    <list default="true" id="6266ece4-2d86-44cc-bfee-e3943a4441f6" name="Changes" comment="chapter6 暴力递归&#10;Code1_Hanoi 汉罗塔问题&#10;Code2_PrintAllSubSquences 打印字符串所有子序列&#10;Code3_PrintFullArrangement 打印字符串的全排列&#10;Code4_ReverseStackUsingRecursive 递归反转栈&#10;Code6_ConvertToLetterString 将数字字符串转换为字母&#10;Code7_Knapsack 给定两个数组，分别是重量对应价值，bag最大能装重量，求最大能装价值&#10;Code8_CardsInLine 给定一个数组，只能拿左右两边，拿完另一个拿，怎么拿使值最大&#10;Code9_NQueue N皇后问题，位运算">
+      <change afterPath="$PROJECT_DIR$/src/com/anyi/base_improvement/chapter1/Code1_RandomPool.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/anyi/base_improvement/chapter1/Code2_IsLands.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/anyi/base_improvement/chapter1/Code3_UnionFind.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/anyi/base_improvement/chapter2/Code1_KMP.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/anyi/base_improvement/chapter2/Code2_Manacher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/anyi/base_improvement/chapter3/Code1_SlidingWindowsMaxArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/anyi/base_improvement/chapter3/Code2_MonotonousStack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/anyi/base_improvement/chapter3/Code3_SonMinMulSum.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/anyi/algorithm_base/chapter6/Code9_NQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/anyi/algorithm_base/chapter6/Code9_NQueue.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,13 +58,13 @@
       <recent name="com.anyi.algorithm_base.chapter4" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Code9_NQueue">
-    <configuration name="Code3_PrintFullArrangement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.anyi.algorithm_base.chapter6.Code3_PrintFullArrangement" />
+  <component name="RunManager" selected="Application.Code3_SonMinMulSum">
+    <configuration name="Code1_KMP" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.anyi.base_improvement.chapter2.Code1_KMP" />
       <module name="algorithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.anyi.algorithm_base.chapter6.*" />
+          <option name="PATTERN" value="com.anyi.base_improvement.chapter2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -71,12 +72,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Code4_ReverseStackUsingRecursive" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.anyi.algorithm_base.chapter6.Code4_ReverseStackUsingRecursive" />
+    <configuration name="Code1_SlidingWindowsMaxArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.anyi.base_improvement.chapter3.Code1_SlidingWindowsMaxArray" />
       <module name="algorithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.anyi.algorithm_base.chapter6.*" />
+          <option name="PATTERN" value="com.anyi.base_improvement.chapter3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -84,12 +85,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Code6_ConvertToLetterString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.anyi.algorithm_base.chapter6.Code6_ConvertToLetterString" />
+    <configuration name="Code2_Manacher" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.anyi.base_improvement.chapter2.Code2_Manacher" />
       <module name="algorithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.anyi.algorithm_base.chapter6.*" />
+          <option name="PATTERN" value="com.anyi.base_improvement.chapter2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -97,12 +98,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Code9_NQueue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.anyi.algorithm_base.chapter6.Code9_NQueue" />
+    <configuration name="Code2_MonotonousStack" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.anyi.base_improvement.chapter3.Code2_MonotonousStack" />
       <module name="algorithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.anyi.algorithm_base.chapter6.*" />
+          <option name="PATTERN" value="com.anyi.base_improvement.chapter3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -110,12 +111,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="com.anyi.algorithm_base.chapter6.Code8_CardsInLine" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.anyi.algorithm_base.chapter6.Code8_CardsInLine" />
+    <configuration name="Code3_SonMinMulSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.anyi.base_improvement.chapter3.Code3_SonMinMulSum" />
       <module name="algorithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.anyi.algorithm_base.chapter6.*" />
+          <option name="PATTERN" value="com.anyi.base_improvement.chapter3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -125,8 +126,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Code9_NQueue" />
-        <item itemvalue="Application.com.anyi.algorithm_base.chapter6.Code8_CardsInLine" />
+        <item itemvalue="Application.Code3_SonMinMulSum" />
+        <item itemvalue="Application.Code2_MonotonousStack" />
+        <item itemvalue="Application.Code1_SlidingWindowsMaxArray" />
+        <item itemvalue="Application.Code2_Manacher" />
+        <item itemvalue="Application.Code1_KMP" />
       </list>
     </recent_temporary>
   </component>
@@ -158,7 +162,12 @@
       <workItem from="1662204194340" duration="91000" />
       <workItem from="1662250112812" duration="12441000" />
       <workItem from="1662287045916" duration="4533000" />
-      <workItem from="1662300477805" duration="1506000" />
+      <workItem from="1662300477805" duration="1610000" />
+      <workItem from="1662338359211" duration="2897000" />
+      <workItem from="1662372908361" duration="700000" />
+      <workItem from="1662374506100" duration="5284000" />
+      <workItem from="1662422463786" duration="4341000" />
+      <workItem from="1662449808064" duration="17504000" />
     </task>
     <task id="LOCAL-00001" summary="归并排序及其拓展 item1 + item2">
       <created>1661676201809</created>
@@ -237,7 +246,14 @@
       <option name="project" value="LOCAL" />
       <updated>1662276457041</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="chapter6 暴力递归&#10;Code1_Hanoi 汉罗塔问题&#10;Code2_PrintAllSubSquences 打印字符串所有子序列&#10;Code3_PrintFullArrangement 打印字符串的全排列&#10;Code4_ReverseStackUsingRecursive 递归反转栈&#10;Code6_ConvertToLetterString 将数字字符串转换为字母&#10;Code7_Knapsack 给定两个数组，分别是重量对应价值，bag最大能装重量，求最大能装价值&#10;Code8_CardsInLine 给定一个数组，只能拿左右两边，拿完另一个拿，怎么拿使值最大&#10;Code9_NQueue N皇后问题，位运算">
+      <created>1662303946393</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1662303946394</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -277,7 +293,8 @@
     <MESSAGE value="Item1_recursiveTraversal 递归遍历&#10;Item2_noRecursive 非递归遍历&#10;Item3_widthRecursive 宽度遍历，以及统计最多节点层&#10;Item4_MaxNodes 统计哪一层节点最多&#10;Item5_isBST 判断是否是一颗搜索树&#10;Item6_isCBT 判断是否是一颗完全二叉树&#10;Item7_isFull 判断是否为满二叉树&#10;Item8_isBalance 判断是否是平衡二叉树&#10;Item9_parentNode 寻找最近汇聚节点" />
     <MESSAGE value="chapter4 图&#10;Code1_BFS 图的广度遍历&#10;Code2_DFS 图的深度遍历&#10;Code3_TopologySort 求拓扑排序&#10;Code4_Kruskal 最小生成树的 k算法 priorityQueue&#10;Code5_Prim 最小生成树的 p算法 采用 map、set priorityQueue&#10;Code6_MinRoute 图的最短路径问题 采用map、set" />
     <MESSAGE value="Code1_TrieTree 前缀树&#10;Code2_LowestLexicography 字典排序&#10;Code3_LessMoneySplitGold 分黄金使用最少的钱&#10;Code4_BestArrange 如何组织可以开最多的会&#10;Code5_IPO 怎么样可以使利益最大化&#10;Code6_MadianQuick 维护两个堆，能够快速的获取中位数&#10;Code7_NQueen N皇后问题" />
-    <option name="LAST_COMMIT_MESSAGE" value="Code1_TrieTree 前缀树&#10;Code2_LowestLexicography 字典排序&#10;Code3_LessMoneySplitGold 分黄金使用最少的钱&#10;Code4_BestArrange 如何组织可以开最多的会&#10;Code5_IPO 怎么样可以使利益最大化&#10;Code6_MadianQuick 维护两个堆，能够快速的获取中位数&#10;Code7_NQueen N皇后问题" />
+    <MESSAGE value="chapter6 暴力递归&#10;Code1_Hanoi 汉罗塔问题&#10;Code2_PrintAllSubSquences 打印字符串所有子序列&#10;Code3_PrintFullArrangement 打印字符串的全排列&#10;Code4_ReverseStackUsingRecursive 递归反转栈&#10;Code6_ConvertToLetterString 将数字字符串转换为字母&#10;Code7_Knapsack 给定两个数组，分别是重量对应价值，bag最大能装重量，求最大能装价值&#10;Code8_CardsInLine 给定一个数组，只能拿左右两边，拿完另一个拿，怎么拿使值最大&#10;Code9_NQueue N皇后问题，位运算" />
+    <option name="LAST_COMMIT_MESSAGE" value="chapter6 暴力递归&#10;Code1_Hanoi 汉罗塔问题&#10;Code2_PrintAllSubSquences 打印字符串所有子序列&#10;Code3_PrintFullArrangement 打印字符串的全排列&#10;Code4_ReverseStackUsingRecursive 递归反转栈&#10;Code6_ConvertToLetterString 将数字字符串转换为字母&#10;Code7_Knapsack 给定两个数组，分别是重量对应价值，bag最大能装重量，求最大能装价值&#10;Code8_CardsInLine 给定一个数组，只能拿左右两边，拿完另一个拿，怎么拿使值最大&#10;Code9_NQueue N皇后问题，位运算" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -312,6 +329,16 @@
           <line>12</line>
           <option name="timeStamp" value="88" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/anyi/base_improvement/chapter1/Code2_IsLands.java</url>
+          <line>14</line>
+          <option name="timeStamp" value="90" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/anyi/base_improvement/chapter2/Code1_KMP.java</url>
+          <line>38</line>
+          <option name="timeStamp" value="95" />
+        </line-breakpoint>
         <breakpoint enabled="true" type="java-exception">
           <properties class="java.util.EmptyStackException" package="java.util" />
           <option name="timeStamp" value="14" />
@@ -323,10 +350,18 @@
         <PinnedItemInfo parentTag="com.anyi.algorithm_base.chapter3.TreeNode" memberName="right" />
       </pinned-members>
     </pin-to-top-manager>
+    <watches-manager>
+      <configuration name="Application">
+        <watch expression="((HashMap.Node)((HashMap)index).entrySet().toArray()[1]).getValue()" custom="java.util.HashMap.Node,java.util.HashMap" />
+      </configuration>
+    </watches-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/algorithm$Item1.ic" NAME="Item1 Coverage Results" MODIFIED="1661674525676" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>com.anyi.algorithm.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/algorithm$Code3_SonMinMulSum.ic" NAME="Code3_SonMinMulSum Coverage Results" MODIFIED="1662474634279" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.anyi.base_improvement.chapter3.*</FILTER>
     </SUITE>
     <SUITE FILE_PATH="coverage/algorithm$Test.ic" NAME="Test Coverage Results" MODIFIED="1661957255387" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>com.anyi.algorithm_base.chapter1.*</FILTER>
