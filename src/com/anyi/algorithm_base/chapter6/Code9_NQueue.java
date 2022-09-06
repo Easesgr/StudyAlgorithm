@@ -1,11 +1,13 @@
 package com.anyi.algorithm_base.chapter6;
 
+import java.util.*;
+
 /**
  * n皇后问题
  */
 public class Code9_NQueue {
     public static void main(String[] args) {
-
+      
     }
     public static int getNQueueNums(int n){
         int limit = n == 32 ? -1 : (1 << n) -1;
