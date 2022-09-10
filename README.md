@@ -57,3 +57,12 @@
 #### Code1_SlidingWindowsMaxArray 滑动窗口，每次都取出最大值
 #### Code2_MonotonousStack 单调栈，可以直到一个数组中每个数左边和右边第一个大于自己的数
 #### Code3_SonMinMulSum 利用单调栈，求指标
+### chapter4
+#### Code1_getMax 不用比较符号，实现比大小
+#### Code2_Power 判断一个数是否是2或4的幂
+#### Code3_AddMinusMulDivideByBit 不用+-*/ 实现加减乘除
+### chapter5
+#### Code1_RobotWalk 机器人行走
+#### Code2_CoinsMin 组成一个数，使用最少硬币
+#### Code3_CartsInLine 先后拿卡牌游戏，怎么拿可以拿到可以拿到最大值
+#### Code4_HorseJump 马踏棋盘游戏

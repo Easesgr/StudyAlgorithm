@@ -10,6 +10,7 @@ public class Code1_RandomPool {
         constructArr(new int[]{1,2,3,4,5});
         List<String> res = new ArrayList<>();
         res.add("0:start:2");
+        Pool<Integer> integerPool = new Pool<>();
 
         Stack<String > stack = new Stack<>();
         System.out.println(Integer.parseInt(res.get(0).split(":")[2]));
@@ -62,6 +63,7 @@ public class Code1_RandomPool {
         }
         // 插入方法
         public void insert(K key){
+
             if(!keyIndexMap.containsKey(key)){
                 keyIndexMap.put(key,this.size); // 放入index对应key的表
                 indexKeyMap.put(this.size ++ ,key); // 放入key对应index的表

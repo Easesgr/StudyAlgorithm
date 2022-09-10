@@ -1,6 +1,9 @@
 package com.anyi.algorithm_base.chapter6;
 
+import java.lang.reflect.Array;
 import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.HashSet;
 import java.util.List;
 
 /**
@@ -9,6 +12,8 @@ import java.util.List;
 public class Code3_PrintFullArrangement {
     public static void main(String[] args) {
         List<String> abc = printFullArrangement("abc");
+        StringBuffer res = new StringBuffer();
+
     }
     /*
         从左往右尝试
@@ -24,6 +29,7 @@ public class Code3_PrintFullArrangement {
         if(index == strs.length){
             res.add(new String(strs));
         }
+
         // 考虑后一个是否可以加入，加入前是否重复了
         boolean[] isCheck = new boolean[26];// 判断是否重复选择过
         // 遍历后 n- index 个数，都可以放在当前位置
