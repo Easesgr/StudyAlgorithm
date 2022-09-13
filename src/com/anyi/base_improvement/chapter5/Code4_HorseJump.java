@@ -36,10 +36,7 @@ public class Code4_HorseJump {
         }
         // 三个变量
         int[][][] dp  = new int[9][10][step +1];
-        // 初始化条件
-        for(int i = 0 ; i< 9 ;i ++){
-
-        }
+        dp[0][0][0] =1;
         // j
        for(int h = 1; h <= step; h++){
            for(int i = 0 ; i < 9; i++){

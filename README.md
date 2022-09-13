@@ -66,3 +66,20 @@
 #### Code2_CoinsMin 组成一个数，使用最少硬币
 #### Code3_CartsInLine 先后拿卡牌游戏，怎么拿可以拿到可以拿到最大值
 #### Code4_HorseJump 马踏棋盘游戏
+
+## 中级提升
+### chapter1
+#### Code1_CordCoverMaxPoint 一条绳子可以框多少个点
+#### Code2_AppleMinBags 大小为6/8的袋子恰好装下苹果，最少袋子
+#### Code3_ColorLeftRight 所有R比G到起点的距离大
+#### Code4_MaxOneBorderSize 0/1矩阵中，由1围成的最大矩阵
+#### Code5_Rand5ToRand7 用随机生成1-5的方法，生成等概率1-7
+#### Code6_UniqueBST 给你n个节点，请问可以构造多少种二叉树
+#### Code7_NeedParentheses 判断一个括号序列是否有效
+### chapter2
+#### Code2_MagicOp 从一个数组移动数到另一个数组，使两个数组平均值都增大
+#### Code3_NumToStringWays 数字装换成字符串的方法数
+#### Code4_ParenthesesDeep 括号序列中，最大有效括号数
+#### Code5_StackSortStack 只能用一个辅助栈，使一个无序的栈变有序
+#### Code6_Eat 先手后手吃草，谁会赢
+#### Code7_MaxSumTree 求出从根节点出发，到叶节点，求出最大权重路径
