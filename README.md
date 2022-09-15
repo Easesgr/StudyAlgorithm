@@ -83,3 +83,12 @@
 #### Code5_StackSortStack 只能用一个辅助栈，使一个无序的栈变有序
 #### Code6_Eat 先手后手吃草，谁会赢
 #### Code7_MaxSumTree 求出从根节点出发，到叶节点，求出最大权重路径
+### chapter3
+#### Code1_PackingMachine 洗衣机，使衣服平均需要多少轮遍历
+#### Code2_ZigZagPrintMatrix 之字型或对象线打印矩阵
+#### Code3_RotateMatrix 将矩阵旋转90度
+#### Code4_PrintMatrixSpiralOrder 螺旋打印矩阵
+#### Code5_FindNumInSortedMatrix 在从上下，左右有序的矩阵中查数
+#### Code6_TopKTimesRealTime 字符数组中找出出现频率最高的
+#### Code7_SplitNBySM 两个公式，两个公式使字符串增长到n，至少调用几次
+#### Code8_TopKTimes 一个堆结构，永远维护，出现频次最高的k个字符数组

@@ -7,11 +7,7 @@ import java.util.*;
  */
 public class Test {
     public static void main(String[] args) {
-        HashSet<Integer> set = new HashSet<>();
-        set.add(1);
-        for(Integer s : set){
-            System.out.println(s);
-        }
+        LinkedList<List<Integer>> res = new LinkedList<>();
     }
     public static int uniquePaths(int m, int n) {
         // 先递归写一遍

@@ -1,7 +1,5 @@
 package com.anyi.middle_improvement.chapter2;
 
-import java.util.List;
-
 /**
  * 给你一个数字序列，请问可以转成多少种字符串
  * 1对应a 2对应b ... 26对应z
@@ -15,11 +13,11 @@ public class Code3_NumToStringWays {
     }
 
     public static int getWay(char[] strs ,int index){
-        if(strs[index] == '0'){
-            return 0;
-        }
         if(index == strs.length){ // 到达最后一个后，说明这是一种转换结果
             return 1;
+        }
+        if(strs[index] == '0'){
+            return 0;
         }
         int res = 0;
         // 其他种可能，如果等于0，单个数字总可以转换

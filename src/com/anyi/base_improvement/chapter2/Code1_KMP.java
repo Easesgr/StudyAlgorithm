@@ -6,8 +6,8 @@ package com.anyi.base_improvement.chapter2;
  */
 public class Code1_KMP {
     public static void main(String[] args) {
-        String str = "aabaaabaaac";
-        String sonStr = "aabaaac";
+        String str = "aadbbcbcac";
+        String sonStr = "aabcc";
         int indexOf = getIndexOf(str, sonStr);
         System.out.println(indexOf);
     }
