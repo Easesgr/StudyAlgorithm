@@ -1,23 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6266ece4-2d86-44cc-bfee-e3943a4441f6" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/anyi/leetcode/Code2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/anyi/leetcode/Code3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/anyi/leetcode/Code4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/anyi/leetcode/Code5.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/anyi/middle_improvement/chapter3/Code1_PackingMachine.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/anyi/middle_improvement/chapter3/Code2_ZigZagPrintMatrix.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/anyi/middle_improvement/chapter3/Code3_RotateMatrix.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/anyi/middle_improvement/chapter3/Code4_PrintMatrixSpiralOrder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/anyi/middle_improvement/chapter3/Code5_FindNumInSortedMatrix.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/anyi/middle_improvement/chapter3/Code6_TopKTimesRealTime.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/anyi/middle_improvement/chapter3/Code7_SplitNBySM.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/anyi/middle_improvement/chapter3/Code8_TopKTimes.java" afterDir="false" />
+    <list default="true" id="6266ece4-2d86-44cc-bfee-e3943a4441f6" name="Changes" comment="chapter5&#10;Code1_GetFolderTree 将一些字符串生成前缀树&#10;Code2_BSTTODoubleLinkedList 将搜索二叉树变成双向链表&#10;Code3_BiggestSubBSTInTree 最大的子搜索二叉树&#10;Code4_PreAndInArrayToPostArray 前序遍历集合和中序遍历集合求出后续遍历集合&#10;Code5_Light 路灯问题&#10;Code6_SubArrayMaxSum 连续子数组累加和的最大值&#10;Code7_SubMatrixMaxSum 压缩矩阵成数组，求子矩阵的累加和最大值&#10;chapter6&#10;Code1_ChineseNumExpression 将阿拉伯数字转中文表达&#10;Code2_PrintNoInArray 给你n个数的数组，里面数字从1-n找出不在数组中的值&#10;Code3_Kiki 主播人气问题，base case不够解决方案&#10;Code4_CompleteTreeNodeNumber 求出完全二叉树的节点个数&#10;chapter7&#10;Code1_ExpressionNumber 1、0、&amp;、|、^加括号运算得到预期结果的方法&#10;Code2_LongestNoRepeatSubString 最长无重复子串&#10;Code3_EditCost 将一个字符串转成另一个字符串最小花费&#10;Code4_RemoveDuplicateLettersLess 删除重复字符，并且按照最小字典序返回">
+      <change afterPath="$PROJECT_DIR$/src/com/anyi/leetcode/Code_172.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/anyi/leetcode/Code_189.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/anyi/middle_improvement/chapter4/Code1_ZeroLeftOneStringNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/anyi/middle_improvement/chapter4/Code2_NearMul4Times.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/anyi/middle_improvement/chapter4/Code3_ConvertStringToInteger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/anyi/middle_improvement/chapter4/Code4_RainWater.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/anyi/middle_improvement/chapter5/Code1_GetFolderTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/anyi/middle_improvement/chapter5/Code2_BSTTODoubleLinkedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/anyi/middle_improvement/chapter5/Code3_BiggestSubBSTInTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/anyi/middle_improvement/chapter5/Code4_PreAndInArrayToPostArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/anyi/middle_improvement/chapter5/Code5_Light.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/anyi/middle_improvement/chapter5/Code6_SubArrayMaxSum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/anyi/middle_improvement/chapter5/Code7_SubMatrixMaxSum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/anyi/middle_improvement/chapter6/Code1_ChineseNumExpression.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/anyi/middle_improvement/chapter6/Code2_PrintNoInArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/anyi/middle_improvement/chapter6/Code3_Kiki.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/anyi/middle_improvement/chapter6/Code4_CompleteTreeNodeNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/anyi/middle_improvement/chapter7/Code1_ExpressionNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/anyi/middle_improvement/chapter7/Code2_LongestNoRepeatSubString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/anyi/middle_improvement/chapter7/Code3_EditCost.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/anyi/middle_improvement/chapter7/Code4_RemoveDuplicateLettersLess.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/anyi/base_improvement/chapter2/Code1_KMP.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/anyi/base_improvement/chapter2/Code1_KMP.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/anyi/algorithm_base/chapter3/Item1_recursiveTraversal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/anyi/algorithm_base/chapter3/Item1_recursiveTraversal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/anyi/base_improvement/chapter1/Code1_RandomPool.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/anyi/base_improvement/chapter1/Code1_RandomPool.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/anyi/leetcode/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/anyi/leetcode/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/anyi/middle_improvement/chapter2/Code3_NumToStringWays.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/anyi/middle_improvement/chapter2/Code3_NumToStringWays.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,8 +64,9 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;E:/code/hm-dianping&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.IDE.editor.colors.Color Scheme Font&quot;
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.keymap&quot;
   }
 }</component>
   <component name="RecentsManager">
@@ -63,13 +74,13 @@
       <recent name="com.anyi.algorithm_base.chapter4" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Code5">
-    <configuration name="Code2_ZigZagPrintMatrix" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.anyi.middle_improvement.chapter3.Code2_ZigZagPrintMatrix" />
+  <component name="RunManager" selected="Application.Code4_RemoveDuplicateLettersLess">
+    <configuration name="Code1_ExpressionNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.anyi.middle_improvement.chapter7.Code1_ExpressionNumber" />
       <module name="algorithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.anyi.middle_improvement.chapter3.*" />
+          <option name="PATTERN" value="com.anyi.middle_improvement.chapter7.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -77,12 +88,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Code3_RotateMatrix" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.anyi.middle_improvement.chapter3.Code3_RotateMatrix" />
+    <configuration name="Code2_LongestNoRepeatSubString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.anyi.middle_improvement.chapter7.Code2_LongestNoRepeatSubString" />
       <module name="algorithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.anyi.middle_improvement.chapter3.*" />
+          <option name="PATTERN" value="com.anyi.middle_improvement.chapter7.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -90,12 +101,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Code4_PrintMatrixSpiralOrder" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.anyi.middle_improvement.chapter3.Code4_PrintMatrixSpiralOrder" />
+    <configuration name="Code3_EditCost" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.anyi.middle_improvement.chapter7.Code3_EditCost" />
       <module name="algorithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.anyi.middle_improvement.chapter3.*" />
+          <option name="PATTERN" value="com.anyi.middle_improvement.chapter7.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -103,8 +114,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Code5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.anyi.leetcode.Code5" />
+    <configuration name="Code4_RemoveDuplicateLettersLess" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.anyi.middle_improvement.chapter7.Code4_RemoveDuplicateLettersLess" />
+      <module name="algorithm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.anyi.middle_improvement.chapter7.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Code_189" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.anyi.leetcode.Code_189" />
       <module name="algorithm" />
       <extension name="coverage">
         <pattern>
@@ -116,26 +140,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Code6_TopKTimesRealTime" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.anyi.middle_improvement.chapter3.Code6_TopKTimesRealTime" />
-      <module name="algorithm" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.anyi.middle_improvement.chapter3.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Code5" />
-        <item itemvalue="Application.Code6_TopKTimesRealTime" />
-        <item itemvalue="Application.Code4_PrintMatrixSpiralOrder" />
-        <item itemvalue="Application.Code3_RotateMatrix" />
-        <item itemvalue="Application.Code2_ZigZagPrintMatrix" />
+        <item itemvalue="Application.Code4_RemoveDuplicateLettersLess" />
+        <item itemvalue="Application.Code3_EditCost" />
+        <item itemvalue="Application.Code2_LongestNoRepeatSubString" />
+        <item itemvalue="Application.Code1_ExpressionNumber" />
+        <item itemvalue="Application.Code_189" />
       </list>
     </recent_temporary>
   </component>
@@ -207,7 +218,18 @@
       <workItem from="1663150470120" duration="665000" />
       <workItem from="1663156920014" duration="686000" />
       <workItem from="1663207454943" duration="1764000" />
-      <workItem from="1663209460111" duration="745000" />
+      <workItem from="1663209460111" duration="1441000" />
+      <workItem from="1663214075002" duration="7966000" />
+      <workItem from="1663241569804" duration="2711000" />
+      <workItem from="1663305213706" duration="5744000" />
+      <workItem from="1663314966437" duration="5318000" />
+      <workItem from="1663320335137" duration="149000" />
+      <workItem from="1663320501512" duration="6000" />
+      <workItem from="1663330981916" duration="473000" />
+      <workItem from="1663378596024" duration="100000" />
+      <workItem from="1663381889869" duration="301000" />
+      <workItem from="1663382205573" duration="2145000" />
+      <workItem from="1663388301283" duration="20584000" />
     </task>
     <task id="LOCAL-00001" summary="归并排序及其拓展 item1 + item2">
       <created>1661676201809</created>
@@ -307,7 +329,14 @@
       <option name="project" value="LOCAL" />
       <updated>1663044008227</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="chapter3&#10;Code1_PackingMachine 洗衣机，使衣服平均需要多少轮遍历&#10;Code2_ZigZagPrintMatrix 之字型或对象线打印矩阵&#10;Code3_RotateMatrix 将矩阵旋转90度&#10;Code4_PrintMatrixSpiralOrder 螺旋打印矩阵&#10;Code5_FindNumInSortedMatrix 在从上下，左右有序的矩阵中查数&#10;Code6_TopKTimesRealTime 字符数组中找出出现频率最高的&#10;Code7_SplitNBySM 两个公式，两个公式使字符串增长到n，至少调用几次&#10;Code8_TopKTimes 一个堆结构，永远维护出现频次最高的k个字符">
+      <created>1663210484013</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1663210484013</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -350,7 +379,8 @@
     <MESSAGE value="chapter6 暴力递归&#10;Code1_Hanoi 汉罗塔问题&#10;Code2_PrintAllSubSquences 打印字符串所有子序列&#10;Code3_PrintFullArrangement 打印字符串的全排列&#10;Code4_ReverseStackUsingRecursive 递归反转栈&#10;Code6_ConvertToLetterString 将数字字符串转换为字母&#10;Code7_Knapsack 给定两个数组，分别是重量对应价值，bag最大能装重量，求最大能装价值&#10;Code8_CardsInLine 给定一个数组，只能拿左右两边，拿完另一个拿，怎么拿使值最大&#10;Code9_NQueue N皇后问题，位运算" />
     <MESSAGE value="chapter4&#10;Code1_getMax 不用比较符号，实现比大小&#10;Code2_Power 判断一个数是否是2或4的幂&#10;Code3_AddMinusMulDivideByBit 不用+-*/ 实现加减乘除&#10;chapter5&#10;Code1_RobotWalk 机器人行走&#10;Code2_CoinsMin 组成一个数，使用最少硬币&#10;Code3_CartsInLine 先后拿卡牌游戏，怎么拿可以拿到可以拿到最大值&#10;Code4_HorseJump 马踏棋盘游戏" />
     <MESSAGE value="中级提升&#10;chapter1&#10;Code1_CordCoverMaxPoint 一条绳子可以框多少个点&#10;Code2_AppleMinBags 大小为6/8的袋子恰好装下苹果，最少袋子&#10;Code3_ColorLeftRight 所有R比G到起点的距离大&#10;Code4_MaxOneBorderSize 0/1矩阵中，由1围成的最大矩阵&#10;Code5_Rand5ToRand7 用随机生成1-5的方法，生成等概率1-7&#10;Code6_UniqueBST 给你n个节点，请问可以构造多少种二叉树&#10;Code7_NeedParentheses 判断一个括号序列是否有效&#10;chapter2&#10;Code2_MagicOp 从一个数组移动数到另一个数组，使两个数组平均值都增大&#10;Code3_NumToStringWays 数字装换成字符串的方法数&#10;Code4_ParenthesesDeep 括号序列中，最大有效括号数&#10;Code5_StackSortStack 只能用一个辅助栈，使一个无序的栈变有序&#10;Code6_Eat 先手后手吃草，谁会赢&#10;Code7_MaxSumTree 求出从根节点出发，到叶节点，求出最大权重路径" />
-    <option name="LAST_COMMIT_MESSAGE" value="中级提升&#10;chapter1&#10;Code1_CordCoverMaxPoint 一条绳子可以框多少个点&#10;Code2_AppleMinBags 大小为6/8的袋子恰好装下苹果，最少袋子&#10;Code3_ColorLeftRight 所有R比G到起点的距离大&#10;Code4_MaxOneBorderSize 0/1矩阵中，由1围成的最大矩阵&#10;Code5_Rand5ToRand7 用随机生成1-5的方法，生成等概率1-7&#10;Code6_UniqueBST 给你n个节点，请问可以构造多少种二叉树&#10;Code7_NeedParentheses 判断一个括号序列是否有效&#10;chapter2&#10;Code2_MagicOp 从一个数组移动数到另一个数组，使两个数组平均值都增大&#10;Code3_NumToStringWays 数字装换成字符串的方法数&#10;Code4_ParenthesesDeep 括号序列中，最大有效括号数&#10;Code5_StackSortStack 只能用一个辅助栈，使一个无序的栈变有序&#10;Code6_Eat 先手后手吃草，谁会赢&#10;Code7_MaxSumTree 求出从根节点出发，到叶节点，求出最大权重路径" />
+    <MESSAGE value="chapter3&#10;Code1_PackingMachine 洗衣机，使衣服平均需要多少轮遍历&#10;Code2_ZigZagPrintMatrix 之字型或对象线打印矩阵&#10;Code3_RotateMatrix 将矩阵旋转90度&#10;Code4_PrintMatrixSpiralOrder 螺旋打印矩阵&#10;Code5_FindNumInSortedMatrix 在从上下，左右有序的矩阵中查数&#10;Code6_TopKTimesRealTime 字符数组中找出出现频率最高的&#10;Code7_SplitNBySM 两个公式，两个公式使字符串增长到n，至少调用几次&#10;Code8_TopKTimes 一个堆结构，永远维护出现频次最高的k个字符" />
+    <option name="LAST_COMMIT_MESSAGE" value="chapter3&#10;Code1_PackingMachine 洗衣机，使衣服平均需要多少轮遍历&#10;Code2_ZigZagPrintMatrix 之字型或对象线打印矩阵&#10;Code3_RotateMatrix 将矩阵旋转90度&#10;Code4_PrintMatrixSpiralOrder 螺旋打印矩阵&#10;Code5_FindNumInSortedMatrix 在从上下，左右有序的矩阵中查数&#10;Code6_TopKTimesRealTime 字符数组中找出出现频率最高的&#10;Code7_SplitNBySM 两个公式，两个公式使字符串增长到n，至少调用几次&#10;Code8_TopKTimes 一个堆结构，永远维护出现频次最高的k个字符" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -399,6 +429,11 @@
           <url>file://$PROJECT_DIR$/src/com/anyi/middle_improvement/chapter3/Code4_PrintMatrixSpiralOrder.java</url>
           <line>24</line>
           <option name="timeStamp" value="115" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/anyi/middle_improvement/chapter7/Code1_ExpressionNumber.java</url>
+          <line>73</line>
+          <option name="timeStamp" value="121" />
         </line-breakpoint>
         <breakpoint enabled="true" type="java-exception">
           <properties class="java.util.EmptyStackException" package="java.util" />

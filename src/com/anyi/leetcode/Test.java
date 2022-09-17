@@ -7,7 +7,14 @@ import java.util.*;
  */
 public class Test {
     public static void main(String[] args) {
-        LinkedList<List<Integer>> res = new LinkedList<>();
+        String s = "a good   example";
+        String[] str = s.trim().split(" ");
+        StringBuffer res = new StringBuffer();
+        for(int i = str.length -1; i>0; i--){
+            String temp = str[i].trim();
+            res.append(temp).append(" ");
+        }
+        res.append(str[0]);
     }
     public static int uniquePaths(int m, int n) {
         // 先递归写一遍

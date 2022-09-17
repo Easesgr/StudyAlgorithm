@@ -92,3 +92,21 @@
 #### Code6_TopKTimesRealTime 字符数组中找出出现频率最高的
 #### Code7_SplitNBySM 两个公式，两个公式使字符串增长到n，至少调用几次
 #### Code8_TopKTimes 一个堆结构，永远维护，出现频次最高的k个字符数组
+### chapter5
+#### Code1_GetFolderTree 将一些字符串生成前缀树
+#### Code2_BSTTODoubleLinkedList 将搜索二叉树变成双向链表
+#### Code3_BiggestSubBSTInTree 最大的子搜索二叉树
+#### Code4_PreAndInArrayToPostArray 前序遍历集合和中序遍历集合求出后续遍历集合
+#### Code5_Light 路灯问题
+#### Code6_SubArrayMaxSum 连续子数组累加和的最大值
+#### Code7_SubMatrixMaxSum 压缩矩阵成数组，求子矩阵的累加和最大值
+### chapter6
+#### Code1_ChineseNumExpression 将阿拉伯数字转中文表达
+#### Code2_PrintNoInArray 给你n个数的数组，里面数字从1-n找出不在数组中的值
+#### Code3_Kiki 主播人气问题，base case不够解决方案
+#### Code4_CompleteTreeNodeNumber 求出完全二叉树的节点个数
+### chapter7
+#### Code1_ExpressionNumber 1、0、&、|、^加括号运算得到预期结果的方法
+#### Code2_LongestNoRepeatSubString 最长无重复子串
+#### Code3_EditCost 将一个字符串转成另一个字符串最小花费
+#### Code4_RemoveDuplicateLettersLess 删除重复字符，并且按照最小字典序返回

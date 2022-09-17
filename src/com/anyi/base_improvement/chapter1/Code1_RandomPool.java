@@ -14,6 +14,7 @@ public class Code1_RandomPool {
 
         Stack<String > stack = new Stack<>();
         System.out.println(Integer.parseInt(res.get(0).split(":")[2]));
+        Set<String> set = new HashSet<>();
     }
     public static int[] constructArr(int[] a) {
         int[] res = new int[a.length];
