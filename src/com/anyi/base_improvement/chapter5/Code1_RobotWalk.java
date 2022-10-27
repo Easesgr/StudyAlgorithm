@@ -1,5 +1,9 @@
 package com.anyi.base_improvement.chapter5;
 
+import java.lang.reflect.Array;
+import java.util.ArrayList;
+import java.util.Arrays;
+
 /*
     机器人走路，给你一个1-N的数组，给你一个当前机器人的位置cur,给你一个目标位置target，
     然后指定K步数到达目标位置，请问有多少种方法到达目标位置

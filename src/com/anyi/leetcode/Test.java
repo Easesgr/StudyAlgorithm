@@ -1,20 +1,21 @@
 package com.anyi.leetcode;
 
+import com.sun.imageio.plugins.common.I18N;
+import com.sun.org.apache.xml.internal.dtm.ref.sax2dtm.SAX2RTFDTM;
+import jdk.nashorn.internal.ir.IdentNode;
+
 import java.util.*;
+import java.util.stream.Collectors;
 
 /**
  * 测试方法
  */
 public class Test {
+
+
+
     public static void main(String[] args) {
-        String s = "a good   example";
-        String[] str = s.trim().split(" ");
-        StringBuffer res = new StringBuffer();
-        for(int i = str.length -1; i>0; i--){
-            String temp = str[i].trim();
-            res.append(temp).append(" ");
-        }
-        res.append(str[0]);
+        HashMap<Character,Integer> map = new HashMap<>();
     }
     public static int uniquePaths(int m, int n) {
         // 先递归写一遍

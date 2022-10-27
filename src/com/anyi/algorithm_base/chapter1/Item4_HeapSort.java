@@ -5,7 +5,9 @@ package com.anyi.algorithm_base.chapter1;
  * 采用算法 heapInsert 、 heapIfy
  */
 public class Item4_HeapSort {
-
+    public static void main(String[] args) {
+        heapSort(new int[]{3,2,1,5,6,4});
+    }
     /**
      * 堆排序
      */

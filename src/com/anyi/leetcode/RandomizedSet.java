@@ -1,52 +1,45 @@
 package com.anyi.leetcode;
 
 import java.util.HashMap;
+import java.util.Random;
 
 class RandomizedSet {
-
-    HashMap<Integer,Integer> indexKeyMap; // 索引和键值表 用于生成随机数
-    HashMap<Integer,Integer> keyIndexMap; // 键值和索引表 用于添加
+    // 采用键值表和值键表，来映射，
     int size;
-    /** Initialize your data structure here. */
+    HashMap<Integer,Integer> keyIndexMap;
+    HashMap<Integer,Integer> indexKeyMap;
     public RandomizedSet() {
-        indexKeyMap = new HashMap<Integer,Integer>();;
-        keyIndexMap = new HashMap<Integer,Integer>();
         size = 0;
+        keyIndexMap = new HashMap<>(); // 创建两个集合来对应
+        indexKeyMap = new HashMap<>();
     }
     
-    /** Inserts a value to the set. Returns true if the set did not already contain the specified element. */
     public boolean insert(int val) {
-        if(!keyIndexMap.containsKey(val)){
+        if(!keyIndexMap.containsKey(val)){ // 判断元素是否存在
+            size++;
             indexKeyMap.put(size,val);
             keyIndexMap.put(val,size);
-            size++;
             return true;
         }
         return false;
     }
     
-    /** Removes a value from the set. Returns true if the set contained the specified element. */
     public boolean remove(int val) {
-        // 首先这个key必须在里面
-        if(keyIndexMap.containsKey(val)){
-            // 删除key后，将最后一个数拿到删除key的index里面，更新keyIndex表
-            int lastKey = indexKeyMap.get(size-1);
-            int deleteIndex = keyIndexMap.get(val);
-            indexKeyMap.remove(deleteIndex);
-            indexKeyMap.put(deleteIndex,lastKey);
-            keyIndexMap.put(lastKey,deleteIndex);
-            indexKeyMap.remove(size -1);
-            keyIndexMap.remove(val);
-            size--;
+        if(keyIndexMap.containsKey(val)){ // 存不存在
+            // 删除第key位置的元素，将最后一个元素放到删除的位置，让size--
+            int deleteIndex = keyIndexMap.get(val); // 需要删除的index
+            indexKeyMap.put(deleteIndex,indexKeyMap.get(size)); // 将最后一个数放到要删除的索引位置
+            keyIndexMap.put(indexKeyMap.get(size),deleteIndex); // 更新最后一个键的index
+            keyIndexMap.remove(val); // 删除val对应的键
+            indexKeyMap.remove(size); // 删除最后一个值的索引值
+            size --;
             return true;
         }
         return false;
     }
     
-    /** Get a random element from the set. */
     public int getRandom() {
-        // 获取随机值，首先不能为空
-        Integer index = (int)(Math.random() * size);
-        return indexKeyMap.get(index);
+        int random =(int)(Math.random() * size) + 1;
+        return indexKeyMap.get(random);
     }
 }

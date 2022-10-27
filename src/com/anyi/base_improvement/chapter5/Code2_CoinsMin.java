@@ -6,7 +6,7 @@ package com.anyi.base_improvement.chapter5;
  */
 public class Code2_CoinsMin {
     public static void main(String[] args) {
-        int i = f3(new int[]{1, 2, 3, 5}, 8);
+        int i = f3(new int[]{1,2,5}, 11);
         System.out.println(i);
     }
     // 暴力 递归
@@ -103,20 +103,20 @@ public class Code2_CoinsMin {
         }
         for(int i = n - 1; i >= 0 ;i--){
             for (int j = 1  ; j <= target; j++){
-                int noNeed = dp[i + 1][j];
-                int need = -1;
+                int p1 = dp[i + 1][j];
+                int p2Next = -1;
                 if(j -arr[i] >=0){
-                   need = dp[i + 1][j -arr[i]];
+                    p2Next = dp[i + 1][j -arr[i]];
                 }
-                if (need == -1 && noNeed == -1){
+                if (p2Next == -1 && p1 == -1){
                     dp[i][j] = -1;
                 }else{
-                    if (need == -1){
-                        dp[i][j] = noNeed;
-                    }else if (noNeed == -1){
-                        dp[i][j] =  need + 1;
-                    }else{
-                        dp[i][j] = Math.min(need,noNeed);
+                    if (p1 == -1){
+                        dp[i][j] =  p2Next + 1;
+                    }else if (p2Next == -1){
+                        dp[i][j] = p1;
+                    }else {
+                        dp[i][j] = Math.min(p2Next + 1,p1);
                     }
                 }
             }

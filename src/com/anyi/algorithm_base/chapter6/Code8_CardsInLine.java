@@ -1,5 +1,10 @@
 package com.anyi.algorithm_base.chapter6;
 
+import java.util.Comparator;
+import java.util.HashMap;
+import java.util.Map;
+import java.util.PriorityQueue;
+
 /*
     拿卡片问题，给定一个数组，只能拿最左边或者最右边的卡
     你拿了其中一张之后由你的对手来拿，持续到卡被拿完，统计最后的分数。谁获胜
@@ -9,6 +14,13 @@ public class Code8_CardsInLine {
         int[] nums = new int[]{1, 100, 20, 4};
         int i = cardsInLine(nums);
         System.out.println(i);
+        PriorityQueue<int[]> heap = new PriorityQueue<>(new Comparator<int[]>() {
+            @Override
+            public int compare(int[] o1, int[] o2) {
+                return 0;
+            }
+        });
+
     }
     public static int cardsInLine(int[] nums){
         return Math.max(f(nums,0,nums.length -1),b(nums,0,nums.length -1));

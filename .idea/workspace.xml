@@ -1,33 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6266ece4-2d86-44cc-bfee-e3943a4441f6" name="Changes" comment="chapter5&#10;Code1_GetFolderTree 将一些字符串生成前缀树&#10;Code2_BSTTODoubleLinkedList 将搜索二叉树变成双向链表&#10;Code3_BiggestSubBSTInTree 最大的子搜索二叉树&#10;Code4_PreAndInArrayToPostArray 前序遍历集合和中序遍历集合求出后续遍历集合&#10;Code5_Light 路灯问题&#10;Code6_SubArrayMaxSum 连续子数组累加和的最大值&#10;Code7_SubMatrixMaxSum 压缩矩阵成数组，求子矩阵的累加和最大值&#10;chapter6&#10;Code1_ChineseNumExpression 将阿拉伯数字转中文表达&#10;Code2_PrintNoInArray 给你n个数的数组，里面数字从1-n找出不在数组中的值&#10;Code3_Kiki 主播人气问题，base case不够解决方案&#10;Code4_CompleteTreeNodeNumber 求出完全二叉树的节点个数&#10;chapter7&#10;Code1_ExpressionNumber 1、0、&amp;、|、^加括号运算得到预期结果的方法&#10;Code2_LongestNoRepeatSubString 最长无重复子串&#10;Code3_EditCost 将一个字符串转成另一个字符串最小花费&#10;Code4_RemoveDuplicateLettersLess 删除重复字符，并且按照最小字典序返回">
-      <change afterPath="$PROJECT_DIR$/src/com/anyi/leetcode/Code_172.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/anyi/leetcode/Code_189.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/anyi/middle_improvement/chapter4/Code1_ZeroLeftOneStringNumber.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/anyi/middle_improvement/chapter4/Code2_NearMul4Times.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/anyi/middle_improvement/chapter4/Code3_ConvertStringToInteger.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/anyi/middle_improvement/chapter4/Code4_RainWater.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/anyi/middle_improvement/chapter5/Code1_GetFolderTree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/anyi/middle_improvement/chapter5/Code2_BSTTODoubleLinkedList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/anyi/middle_improvement/chapter5/Code3_BiggestSubBSTInTree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/anyi/middle_improvement/chapter5/Code4_PreAndInArrayToPostArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/anyi/middle_improvement/chapter5/Code5_Light.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/anyi/middle_improvement/chapter5/Code6_SubArrayMaxSum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/anyi/middle_improvement/chapter5/Code7_SubMatrixMaxSum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/anyi/middle_improvement/chapter6/Code1_ChineseNumExpression.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/anyi/middle_improvement/chapter6/Code2_PrintNoInArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/anyi/middle_improvement/chapter6/Code3_Kiki.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/anyi/middle_improvement/chapter6/Code4_CompleteTreeNodeNumber.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/anyi/middle_improvement/chapter7/Code1_ExpressionNumber.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/anyi/middle_improvement/chapter7/Code2_LongestNoRepeatSubString.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/anyi/middle_improvement/chapter7/Code3_EditCost.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/anyi/middle_improvement/chapter7/Code4_RemoveDuplicateLettersLess.java" afterDir="false" />
+    <list default="true" id="6266ece4-2d86-44cc-bfee-e3943a4441f6" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/com/anyi/leetcode/Code_1423.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/anyi/leetcode/Code_1640.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/anyi/leetcode/Code_1700.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/anyi/leetcode/Code_1790.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/anyi/leetcode/Code_187.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/anyi/leetcode/Code_209.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/anyi/leetcode/Code_227.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/anyi/leetcode/Code_238.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/anyi/leetcode/Code_240.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/anyi/leetcode/Code_289.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/anyi/leetcode/Code_299.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/anyi/leetcode/Code_300.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/anyi/leetcode/Code_306.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/anyi/leetcode/Code_322.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/anyi/leetcode/Code_324.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/anyi/leetcode/Code_347.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/anyi/leetcode/Code_565.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/anyi/leetcode/Code_581.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/anyi/leetcode/Code_854.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/anyi/leetcode/MyLinkedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/anyi/leetcode/Robot.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/anyi/leetcode/Slove1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/anyi/leetcode/Test1.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/anyi/algorithm_base/chapter3/Item1_recursiveTraversal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/anyi/algorithm_base/chapter3/Item1_recursiveTraversal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/anyi/base_improvement/chapter1/Code1_RandomPool.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/anyi/base_improvement/chapter1/Code1_RandomPool.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/anyi/algorithm_base/chapter1/Item4_HeapSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/anyi/algorithm_base/chapter1/Item4_HeapSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/anyi/algorithm_base/chapter6/Code8_CardsInLine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/anyi/algorithm_base/chapter6/Code8_CardsInLine.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/anyi/base_improvement/chapter5/Code1_RobotWalk.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/anyi/base_improvement/chapter5/Code1_RobotWalk.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/anyi/base_improvement/chapter5/Code2_CoinsMin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/anyi/base_improvement/chapter5/Code2_CoinsMin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/anyi/leetcode/RandomizedSet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/anyi/leetcode/RandomizedSet.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/anyi/leetcode/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/anyi/leetcode/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/anyi/middle_improvement/chapter7/Code4_RemoveDuplicateLettersLess.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/anyi/middle_improvement/chapter7/Code4_RemoveDuplicateLettersLess.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,9 +69,9 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;E:/code/hm-dianping&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/msb/InternetArchitect-master/01 Spring/04 spring，ioc入门与详解&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.keymap&quot;
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
 }</component>
   <component name="RecentsManager">
@@ -74,13 +79,13 @@
       <recent name="com.anyi.algorithm_base.chapter4" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Code4_RemoveDuplicateLettersLess">
-    <configuration name="Code1_ExpressionNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.anyi.middle_improvement.chapter7.Code1_ExpressionNumber" />
+  <component name="RunManager" selected="Application.Test1">
+    <configuration name="Code2_PrintAllSubSquences" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.anyi.algorithm_base.chapter6.Code2_PrintAllSubSquences" />
       <module name="algorithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.anyi.middle_improvement.chapter7.*" />
+          <option name="PATTERN" value="com.anyi.algorithm_base.chapter6.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -88,12 +93,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Code2_LongestNoRepeatSubString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.anyi.middle_improvement.chapter7.Code2_LongestNoRepeatSubString" />
+    <configuration name="Code_581" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.anyi.leetcode.Code_581" />
       <module name="algorithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.anyi.middle_improvement.chapter7.*" />
+          <option name="PATTERN" value="com.anyi.leetcode.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -101,12 +106,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Code3_EditCost" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.anyi.middle_improvement.chapter7.Code3_EditCost" />
+    <configuration name="Slove1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.anyi.leetcode.Slove1" />
       <module name="algorithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.anyi.middle_improvement.chapter7.*" />
+          <option name="PATTERN" value="com.anyi.leetcode.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -114,12 +119,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Code4_RemoveDuplicateLettersLess" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.anyi.middle_improvement.chapter7.Code4_RemoveDuplicateLettersLess" />
+    <configuration name="Test1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.anyi.leetcode.Test1" />
       <module name="algorithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.anyi.middle_improvement.chapter7.*" />
+          <option name="PATTERN" value="com.anyi.leetcode.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -127,8 +132,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Code_189" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.anyi.leetcode.Code_189" />
+    <configuration name="com.anyi.leetcode.Code_1700" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.anyi.leetcode.Code_1700" />
       <module name="algorithm" />
       <extension name="coverage">
         <pattern>
@@ -142,11 +147,10 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Code4_RemoveDuplicateLettersLess" />
-        <item itemvalue="Application.Code3_EditCost" />
-        <item itemvalue="Application.Code2_LongestNoRepeatSubString" />
-        <item itemvalue="Application.Code1_ExpressionNumber" />
-        <item itemvalue="Application.Code_189" />
+        <item itemvalue="Application.Test1" />
+        <item itemvalue="Application.Code_581" />
+        <item itemvalue="Application.com.anyi.leetcode.Code_1700" />
+        <item itemvalue="Application.Code2_PrintAllSubSquences" />
       </list>
     </recent_temporary>
   </component>
@@ -229,7 +233,61 @@
       <workItem from="1663378596024" duration="100000" />
       <workItem from="1663381889869" duration="301000" />
       <workItem from="1663382205573" duration="2145000" />
-      <workItem from="1663388301283" duration="20584000" />
+      <workItem from="1663388301283" duration="20654000" />
+      <workItem from="1663464137330" duration="9108000" />
+      <workItem from="1663504380922" duration="2358000" />
+      <workItem from="1663510925253" duration="43000" />
+      <workItem from="1663513475972" duration="132000" />
+      <workItem from="1663551022099" duration="9064000" />
+      <workItem from="1663582974816" duration="197000" />
+      <workItem from="1663590951922" duration="596000" />
+      <workItem from="1663597943850" duration="22000" />
+      <workItem from="1663600556673" duration="110000" />
+      <workItem from="1663635795744" duration="953000" />
+      <workItem from="1663642487328" duration="847000" />
+      <workItem from="1663653708178" duration="2490000" />
+      <workItem from="1663661356847" duration="999000" />
+      <workItem from="1663673769309" duration="762000" />
+      <workItem from="1663682530129" duration="6000" />
+      <workItem from="1663726370217" duration="4853000" />
+      <workItem from="1663748848635" duration="2311000" />
+      <workItem from="1663820908389" duration="5530000" />
+      <workItem from="1663838998172" duration="36000" />
+      <workItem from="1663915422813" duration="1829000" />
+      <workItem from="1663930584419" duration="5000" />
+      <workItem from="1663939927908" duration="17000" />
+      <workItem from="1663985917946" duration="2517000" />
+      <workItem from="1664089075987" duration="2646000" />
+      <workItem from="1664115117836" duration="16000" />
+      <workItem from="1664180356983" duration="604000" />
+      <workItem from="1664262629043" duration="1669000" />
+      <workItem from="1664266155976" duration="3442000" />
+      <workItem from="1664324394202" duration="6000" />
+      <workItem from="1664327747374" duration="29000" />
+      <workItem from="1665143656390" duration="1292000" />
+      <workItem from="1665203827622" duration="604000" />
+      <workItem from="1665462047609" duration="6251000" />
+      <workItem from="1665487158877" duration="15000" />
+      <workItem from="1665569618699" duration="2114000" />
+      <workItem from="1665643188295" duration="407000" />
+      <workItem from="1665644285536" duration="13000" />
+      <workItem from="1665718899912" duration="1046000" />
+      <workItem from="1665724436299" duration="103000" />
+      <workItem from="1665724552347" duration="291000" />
+      <workItem from="1665724858548" duration="58000" />
+      <workItem from="1665742768521" duration="13000" />
+      <workItem from="1665742887669" duration="40000" />
+      <workItem from="1666092349804" duration="3257000" />
+      <workItem from="1666164528375" duration="1433000" />
+      <workItem from="1666190146679" duration="1099000" />
+      <workItem from="1666355353706" duration="604000" />
+      <workItem from="1666361864308" duration="95000" />
+      <workItem from="1666421129016" duration="1288000" />
+      <workItem from="1666498791387" duration="123000" />
+      <workItem from="1666594897555" duration="6000" />
+      <workItem from="1666751616765" duration="59000" />
+      <workItem from="1666768394026" duration="2053000" />
+      <workItem from="1666770663670" duration="674000" />
     </task>
     <task id="LOCAL-00001" summary="归并排序及其拓展 item1 + item2">
       <created>1661676201809</created>
@@ -336,7 +394,14 @@
       <option name="project" value="LOCAL" />
       <updated>1663210484013</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="chapter5&#10;Code1_GetFolderTree 将一些字符串生成前缀树&#10;Code2_BSTTODoubleLinkedList 将搜索二叉树变成双向链表&#10;Code3_BiggestSubBSTInTree 最大的子搜索二叉树&#10;Code4_PreAndInArrayToPostArray 前序遍历集合和中序遍历集合求出后续遍历集合&#10;Code5_Light 路灯问题&#10;Code6_SubArrayMaxSum 连续子数组累加和的最大值&#10;Code7_SubMatrixMaxSum 压缩矩阵成数组，求子矩阵的累加和最大值&#10;chapter6&#10;Code1_ChineseNumExpression 将阿拉伯数字转中文表达&#10;Code2_PrintNoInArray 给你n个数的数组，里面数字从1-n找出不在数组中的值&#10;Code3_Kiki 主播人气问题，base case不够解决方案&#10;Code4_CompleteTreeNodeNumber 求出完全二叉树的节点个数&#10;chapter7&#10;Code1_ExpressionNumber 1、0、&amp;、|、^加括号运算得到预期结果的方法&#10;Code2_LongestNoRepeatSubString 最长无重复子串&#10;Code3_EditCost 将一个字符串转成另一个字符串最小花费&#10;Code4_RemoveDuplicateLettersLess 删除重复字符，并且按照最小字典序返回">
+      <created>1663424286392</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1663424286392</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -380,7 +445,8 @@
     <MESSAGE value="chapter4&#10;Code1_getMax 不用比较符号，实现比大小&#10;Code2_Power 判断一个数是否是2或4的幂&#10;Code3_AddMinusMulDivideByBit 不用+-*/ 实现加减乘除&#10;chapter5&#10;Code1_RobotWalk 机器人行走&#10;Code2_CoinsMin 组成一个数，使用最少硬币&#10;Code3_CartsInLine 先后拿卡牌游戏，怎么拿可以拿到可以拿到最大值&#10;Code4_HorseJump 马踏棋盘游戏" />
     <MESSAGE value="中级提升&#10;chapter1&#10;Code1_CordCoverMaxPoint 一条绳子可以框多少个点&#10;Code2_AppleMinBags 大小为6/8的袋子恰好装下苹果，最少袋子&#10;Code3_ColorLeftRight 所有R比G到起点的距离大&#10;Code4_MaxOneBorderSize 0/1矩阵中，由1围成的最大矩阵&#10;Code5_Rand5ToRand7 用随机生成1-5的方法，生成等概率1-7&#10;Code6_UniqueBST 给你n个节点，请问可以构造多少种二叉树&#10;Code7_NeedParentheses 判断一个括号序列是否有效&#10;chapter2&#10;Code2_MagicOp 从一个数组移动数到另一个数组，使两个数组平均值都增大&#10;Code3_NumToStringWays 数字装换成字符串的方法数&#10;Code4_ParenthesesDeep 括号序列中，最大有效括号数&#10;Code5_StackSortStack 只能用一个辅助栈，使一个无序的栈变有序&#10;Code6_Eat 先手后手吃草，谁会赢&#10;Code7_MaxSumTree 求出从根节点出发，到叶节点，求出最大权重路径" />
     <MESSAGE value="chapter3&#10;Code1_PackingMachine 洗衣机，使衣服平均需要多少轮遍历&#10;Code2_ZigZagPrintMatrix 之字型或对象线打印矩阵&#10;Code3_RotateMatrix 将矩阵旋转90度&#10;Code4_PrintMatrixSpiralOrder 螺旋打印矩阵&#10;Code5_FindNumInSortedMatrix 在从上下，左右有序的矩阵中查数&#10;Code6_TopKTimesRealTime 字符数组中找出出现频率最高的&#10;Code7_SplitNBySM 两个公式，两个公式使字符串增长到n，至少调用几次&#10;Code8_TopKTimes 一个堆结构，永远维护出现频次最高的k个字符" />
-    <option name="LAST_COMMIT_MESSAGE" value="chapter3&#10;Code1_PackingMachine 洗衣机，使衣服平均需要多少轮遍历&#10;Code2_ZigZagPrintMatrix 之字型或对象线打印矩阵&#10;Code3_RotateMatrix 将矩阵旋转90度&#10;Code4_PrintMatrixSpiralOrder 螺旋打印矩阵&#10;Code5_FindNumInSortedMatrix 在从上下，左右有序的矩阵中查数&#10;Code6_TopKTimesRealTime 字符数组中找出出现频率最高的&#10;Code7_SplitNBySM 两个公式，两个公式使字符串增长到n，至少调用几次&#10;Code8_TopKTimes 一个堆结构，永远维护出现频次最高的k个字符" />
+    <MESSAGE value="chapter5&#10;Code1_GetFolderTree 将一些字符串生成前缀树&#10;Code2_BSTTODoubleLinkedList 将搜索二叉树变成双向链表&#10;Code3_BiggestSubBSTInTree 最大的子搜索二叉树&#10;Code4_PreAndInArrayToPostArray 前序遍历集合和中序遍历集合求出后续遍历集合&#10;Code5_Light 路灯问题&#10;Code6_SubArrayMaxSum 连续子数组累加和的最大值&#10;Code7_SubMatrixMaxSum 压缩矩阵成数组，求子矩阵的累加和最大值&#10;chapter6&#10;Code1_ChineseNumExpression 将阿拉伯数字转中文表达&#10;Code2_PrintNoInArray 给你n个数的数组，里面数字从1-n找出不在数组中的值&#10;Code3_Kiki 主播人气问题，base case不够解决方案&#10;Code4_CompleteTreeNodeNumber 求出完全二叉树的节点个数&#10;chapter7&#10;Code1_ExpressionNumber 1、0、&amp;、|、^加括号运算得到预期结果的方法&#10;Code2_LongestNoRepeatSubString 最长无重复子串&#10;Code3_EditCost 将一个字符串转成另一个字符串最小花费&#10;Code4_RemoveDuplicateLettersLess 删除重复字符，并且按照最小字典序返回" />
+    <option name="LAST_COMMIT_MESSAGE" value="chapter5&#10;Code1_GetFolderTree 将一些字符串生成前缀树&#10;Code2_BSTTODoubleLinkedList 将搜索二叉树变成双向链表&#10;Code3_BiggestSubBSTInTree 最大的子搜索二叉树&#10;Code4_PreAndInArrayToPostArray 前序遍历集合和中序遍历集合求出后续遍历集合&#10;Code5_Light 路灯问题&#10;Code6_SubArrayMaxSum 连续子数组累加和的最大值&#10;Code7_SubMatrixMaxSum 压缩矩阵成数组，求子矩阵的累加和最大值&#10;chapter6&#10;Code1_ChineseNumExpression 将阿拉伯数字转中文表达&#10;Code2_PrintNoInArray 给你n个数的数组，里面数字从1-n找出不在数组中的值&#10;Code3_Kiki 主播人气问题，base case不够解决方案&#10;Code4_CompleteTreeNodeNumber 求出完全二叉树的节点个数&#10;chapter7&#10;Code1_ExpressionNumber 1、0、&amp;、|、^加括号运算得到预期结果的方法&#10;Code2_LongestNoRepeatSubString 最长无重复子串&#10;Code3_EditCost 将一个字符串转成另一个字符串最小花费&#10;Code4_RemoveDuplicateLettersLess 删除重复字符，并且按照最小字典序返回" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -402,18 +468,13 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/com/anyi/algorithm_base/chapter6/Code8_CardsInLine.java</url>
-          <line>12</line>
+          <line>24</line>
           <option name="timeStamp" value="88" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/com/anyi/base_improvement/chapter1/Code2_IsLands.java</url>
           <line>14</line>
           <option name="timeStamp" value="90" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/anyi/leetcode/RandomizedSet.java</url>
-          <line>33</line>
-          <option name="timeStamp" value="99" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/com/anyi/leetcode/Code2.java</url>
@@ -435,6 +496,126 @@
           <line>73</line>
           <option name="timeStamp" value="121" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/anyi/algorithm_base/chapter1/Item4_HeapSort.java</url>
+          <line>26</line>
+          <option name="timeStamp" value="123" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/anyi/leetcode/Code_227.java</url>
+          <line>7</line>
+          <option name="timeStamp" value="131" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/anyi/leetcode/Code_238.java</url>
+          <line>8</line>
+          <option name="timeStamp" value="133" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/anyi/leetcode/Code_238.java</url>
+          <line>23</line>
+          <option name="timeStamp" value="134" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/anyi/leetcode/Code_240.java</url>
+          <line>27</line>
+          <option name="timeStamp" value="138" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/anyi/leetcode/Code_289.java</url>
+          <line>12</line>
+          <option name="timeStamp" value="143" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/anyi/leetcode/Code_289.java</url>
+          <line>16</line>
+          <option name="timeStamp" value="146" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/anyi/leetcode/Code_289.java</url>
+          <line>32</line>
+          <option name="timeStamp" value="148" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/anyi/leetcode/Code_299.java</url>
+          <line>8</line>
+          <option name="timeStamp" value="149" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/anyi/leetcode/Code_299.java</url>
+          <line>7</line>
+          <option name="timeStamp" value="151" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/anyi/leetcode/Code_854.java</url>
+          <line>20</line>
+          <option name="timeStamp" value="155" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/anyi/leetcode/Code_854.java</url>
+          <line>28</line>
+          <option name="timeStamp" value="157" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/anyi/middle_improvement/chapter7/Code4_RemoveDuplicateLettersLess.java</url>
+          <line>8</line>
+          <option name="timeStamp" value="159" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/anyi/leetcode/Code_1423.java</url>
+          <line>21</line>
+          <option name="timeStamp" value="164" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/anyi/leetcode/Code_324.java</url>
+          <line>10</line>
+          <option name="timeStamp" value="166" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/anyi/leetcode/Code_324.java</url>
+          <line>16</line>
+          <option name="timeStamp" value="167" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/anyi/base_improvement/chapter5/Code2_CoinsMin.java</url>
+          <line>94</line>
+          <option name="timeStamp" value="171" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/anyi/base_improvement/chapter5/Code2_CoinsMin.java</url>
+          <line>103</line>
+          <option name="timeStamp" value="172" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/anyi/leetcode/Code_306.java</url>
+          <line>17</line>
+          <option name="timeStamp" value="177" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/anyi/leetcode/RandomizedSet.java</url>
+          <line>18</line>
+          <option name="timeStamp" value="178" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/anyi/leetcode/RandomizedSet.java</url>
+          <line>42</line>
+          <option name="timeStamp" value="179" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/anyi/leetcode/Robot.java</url>
+          <line>18</line>
+          <option name="timeStamp" value="180" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/anyi/leetcode/Robot.java</url>
+          <line>27</line>
+          <option name="timeStamp" value="182" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/anyi/leetcode/Code_581.java</url>
+          <line>9</line>
+          <option name="timeStamp" value="184" />
+        </line-breakpoint>
         <breakpoint enabled="true" type="java-exception">
           <properties class="java.util.EmptyStackException" package="java.util" />
           <option name="timeStamp" value="14" />
@@ -445,12 +626,15 @@
       <pinned-members>
         <PinnedItemInfo parentTag="com.anyi.algorithm_base.chapter3.TreeNode" memberName="right" />
         <PinnedItemInfo parentTag="com.anyi.leetcode.RandomizedSet" memberName="indexKeyMap" />
+        <PinnedItemInfo parentTag="com.anyi.leetcode.MyLinkedList$ListNode" memberName="next" />
       </pinned-members>
     </pin-to-top-manager>
     <watches-manager>
       <configuration name="Application">
         <watch expression="res.get(11)" />
         <watch expression="res.get(11)" />
+        <watch expression="cur" />
+        <watch expression="linkedList.tail" />
       </configuration>
     </watches-manager>
   </component>

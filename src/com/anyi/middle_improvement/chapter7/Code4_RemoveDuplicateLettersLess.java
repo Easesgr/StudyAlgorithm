@@ -5,21 +5,22 @@ package com.anyi.middle_improvement.chapter7;
  */
 public class Code4_RemoveDuplicateLettersLess {
     public static void main(String[] args) {
-        String abcdbefag = remove("cababdbefag");
+        String abcdbefag = remove( "cdadabcc");
         System.out.println(abcdbefag);
     }
     public static String remove(String str){
-        if(str == null || str.length() == 1){
+        if(str.equals("") || str.length() == 1){
             return str;
         }
-        int[] map = new int[256];
+        int[] map = new int[27];
         // 统计当前字符串出现的频次
         for (int i = 0; i < str.length(); i++) {
-            map[str.charAt(i)]++;
+            map[str.charAt(i) - 'a']++;
         }
         int minIndex = 0;
         for(int i = 0; i <str.length() ; i++){
-            if(--map[str.charAt(i)] == 0){
+            if(--map[str.charAt(i) - 'a'] == 0){
+                minIndex = str.charAt(minIndex) > str.charAt(i)?i:minIndex;
                 break;
             }else{
                 /**
